@@ -1,4 +1,4 @@
-# React Interest Calculator
+# Banking Application
 
 A simple React-based banking application that allows users to manage their balance, add interest, charge fees, and perform deposit and withdrawal transactions.
 
@@ -35,10 +35,10 @@ A simple React-based banking application that allows users to manage their balan
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-interest-calculator.git
+   git clone https://github.com/your-username/react-banking-app.git
 
 2. Navigate to the project directory:
-    cd react-interest-calculator
+    cd react-banking-app
 
 3. Install the required dependencies:
     npm install
@@ -77,7 +77,7 @@ A simple React-based banking application that allows users to manage their balan
     . onChargeFees: A function to charge fees.
 
 4. App.js
-. The main application component that integrates all other components.
+. The main application component integrates all other components.
 . Manages the application's state, including the user's balance.
 
 ## Available Scripts
@@ -93,7 +93,7 @@ Builds the app for production to the build folder.
 Launches the test runner in interactive watch mode.
 
 . npm run eject
-Removes the single build dependency from your project.
+Removes the single-build dependency from your project.
 
 ## Future Enhancements
 .   Add authentication for user-specific balances.
@@ -106,7 +106,7 @@ Removes the single build dependency from your project.
 Contributions are welcome! Please follow these steps to contribute:
 1. Fork the repository.
 2. Create a new branch: git checkout -b feature-name.
-3. Make your changes and commit them: git commit -m 'Add some feature'.
+3. Make and commit your changes: git commit -m 'Add some feature'.
 4. Push the branch: git push origin feature-name.
 5. Submit a pull request.
 
