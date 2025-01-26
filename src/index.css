@@ -1,0 +1,85 @@
+/* Reset styles */
+body,
+h1,
+h2,
+p,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Root styles */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Global link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Global button styles */
+button {
+  cursor: pointer;
+}
+
+/* Balance component style */
+.balance-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.balance-text {
+  font-size: 24px;
+}
+
+/* InterestButton component style */
+.interest-button-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.interest-button-text {
+  font-size: 24px;
+}
+
+/* App component style */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* TransactionForm component style */
+.transaction-form-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
